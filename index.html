@@ -18,6 +18,31 @@
     
   </head>
   <body>
+    <header>
+      <div class="wrapper">
+        <div class="logo">FalconMasters</div>
+        
+        <nav>
+          <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+          <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+          <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+          <script>
+          $( function() {
+            $( "#campofecha" ).datepicker({
+              numberOfMonths: 2,
+              showButtonPanel: true
+            });
+          } );
+          </script>
+         
+          <p>Fecha: <input type="text" id="campofecha"></p>
+          <a href="#">Servicios</a>
+          <a href="#">Proyectos</a>
+          <a href="#">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
     <h1>Chat</h1>
     <form action="javascript:agrega();">
       <input id="texto" type="text" required placeholder="Mensaje">
