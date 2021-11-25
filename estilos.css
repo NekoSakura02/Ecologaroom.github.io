@@ -40,11 +40,11 @@ body {
 
 /*Estilos Generales*/
 .btn {
-  line-height:normal;
+  line-height: normal;
   text-decoration: none;
-  text-align:center;
-	display:inline-block;
-  font-weight:bold;
+  text-align: center;
+	display: inline-block;
+  font-weight: bold;
   color:#fff;
   background: #7ed957;
 	box-shadow:0px 3px 0px #429900;
@@ -70,13 +70,15 @@ body {
   word-wrap: break-word;
 }
 
-.menu .btn {
+.menuBtn {
  /* padding: .375rem .75rem;*/
-  padding: none; 
-  margin: none;
+  padding-bottom: 10px; 
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   background: none;
   border: 2px solid #F5F3EF;
-  border-radius: .25rem;
+  width:115px;
   box-shadow: none;
   color: #F5F3EF;
   transition: color .15s ease-in-out
