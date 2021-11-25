@@ -93,6 +93,16 @@ body {
   transition: all 0.2s ease;
 }
 
+.menuBtnIni {
+  width: 100%;
+  height: 70px;
+  background-color: #7ed97e;
+  border: none;
+  box-shadow: none;
+  color: #F5F3EF;
+  font-family: 'EB Garamond', serif;
+}
+
 .contenido {
   float: right;
   width: 90%;
