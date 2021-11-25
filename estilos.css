@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Outfit:wght@300&display=swap');
 
 body {
   font-family: 'Outfit', sans-serif;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .navbar {
@@ -11,6 +12,7 @@ body {
   position: sticky;
   top: 0;
   background-color: #F5F3EF;
+  font-size: 14px;
 }
 
 /*
@@ -72,10 +74,7 @@ body {
 
 .menuBtn {
  /* padding: .375rem .75rem;*/
-  padding-bottom: 10px; 
-  padding-top: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  height: 70px;
   background: none;
   border: 2px solid #F5F3EF;
   width:115px;
@@ -83,6 +82,7 @@ body {
   color: #F5F3EF;
   transition: color .15s ease-in-out
     background-color .15s ease-in-out;
+  font-family: 'EB Garamond', serif;
 }
 
 .contenido {
@@ -102,18 +102,27 @@ body {
   padding: 20px;
 }
 
+.descripcion {
+  padding-bottom: 40px;
+}
+
+.nosotros {
+  padding-bottom: 40px;
+}
+
 footer {
   clear: both;
   width: 100%;
   background-color: #029876;
+  font-size: 14px;
 }
 
-.contacto {
+.retícula {
   color: white;
-  font-size: 16px;
+  /*font-size: 16px;*/
   font-weight: bold;
   text-align: center;
-  padding: 18px;
+  padding: 10px;
 }
 
 .icon {
@@ -124,5 +133,5 @@ footer {
 .copyright {
   color: white;
   text-align: center;
-  padding: 18px;
+  padding: 10px;
 }
