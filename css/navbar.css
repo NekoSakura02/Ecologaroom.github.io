@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+
+.navbar {
+  width: 100%; /* Establecemos que el navbar abarque el 100% del documento */
+	overflow: hidden; /* Eliminamos errores de float */
+  position: fixed; 
+  top: 0;
+  background-color: #F5F3EF;
+  font-size: 14px;
+}
+
+.logo {
+  float: left;
+  width: 10%;
+  text-align: center;
+  /*max-width: 70px;*/
+}
+
+.imagen_logo {
+  width: 50%;
+  height: auto;
+}
+
+.reservacion{
+  float: right;
+  width: 90%;
+  height: 100%;
+  text-align: right;
+}
+
+.navbar label {
+  size-adjust: 100%;
+  text-size-adjust: auto;
+  margin-left:18px;
+}
+
+.navbar input {
+  size-adjust: 100%;
+  text-size-adjust: auto;
+  margin-right:18px;
+  width: 125px;
+}
+
+#Num_huesped {
+  size-adjust: 100%;
+  text-size-adjust: auto;
+  width: 50px;
+}
+
+.navbar .btn {
+  size-adjust: 100%;
+  text-size-adjust: auto;
+  line-height: normal;
+  text-decoration: none;
+  text-align: center;
+	display: inline-block;
+  font-weight: bold;
+  color:#fff;
+  background: #7ed957;
+	box-shadow:0px 3px 0px #429900;
+  padding: 5px; 
+  margin: 18px;
+  margin-right: 40px;
+	width: 100px;
+  border: none;
+  border-radius: 40px;
+  transition: all 500ms ease;
+}
+
+.navbar .btn:hover {
+  background: #029876;
+	border-radius:50px;
+}

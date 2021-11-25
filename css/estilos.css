@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+}
+
+.contenido {
+  float: right;
+  width: 90%;
+  top: 12%;
+}
+
+.portada {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.fondo {
+  width: 100%;
+  height: auto;
+}
+
+.bienvenido {
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  color:rgba(255, 255, 255, 1);
+  text-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+.descripcion {
+  padding-bottom: 40px;
+}
+
+.nosotros {
+  padding-bottom: 40px;
+}
