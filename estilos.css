@@ -1,3 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+
 body {
-  font-family: sans-serif
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+}
+
+.navbar {
+  width:100%; /* Establecemos que el navbar abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+  position: sticky;
+  top: 0;
+  background-color: #F5F3EF;
+}
+
+/*
+.wrapper {
+	width:98%; /* Establecemos que el ancho sera del 90% 
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px 
+	margin:auto; /* Centramos los elementos 
+	overflow:hidden; /* Eliminamos errores de float 
+}*/
+
+.logo {
+  float: left;
+  margin-left: 18px;
+}
+
+.reservacion{
+  float: right;
+}
+
+.navbar label {
+  margin-left:18px;
+}
+
+.navbar input {
+  margin-right:18px;
+}
+
+/*Estilos Generales*/
+.btn {
+  line-height:normal;
+  text-decoration: none;
+  text-align:center;
+	display:inline-block;
+  font-weight:bold;
+  color:#fff;
+  background: #7ed957;
+	box-shadow:0px 3px 0px #429900;
+  padding: 5px; 
+  margin:18px;
+	width:100px;
+	border-radius:20px;
+  transition:all 500ms ease;
+}
+
+.btn:hover {
+	background: #029876;
+	border-radius:50px;
+}
+
+
+.menu {
+  float: left;
+  width: 9%;
+  background-color: #4faae0;
+  position: fixed;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.menu .btn {
+ /* padding: .375rem .75rem;*/
+  padding: none; 
+  margin: none;
+  background: none;
+  border: 2px solid #F5F3EF;
+  border-radius: .25rem;
+  box-shadow: none;
+  color: #F5F3EF;
+  transition: color .15s ease-in-out
+    background-color .15s ease-in-out;
+}
+
+.contenido {
+  float: right;
+  width: 90%;
+}
+
+.mask {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+
+.bienvenido {
+  padding: 20px;
+}
+
+footer {
+  clear: both;
+  width: 100%;
+  background-color: #029876;
+}
+
+.contacto {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 18px;
+}
+
+.icon {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  padding: 18px;
 }
