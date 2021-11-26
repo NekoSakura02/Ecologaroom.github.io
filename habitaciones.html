@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/habitaciones.css">
     <!--  Carga el núcleo de Firebase JS SDK 
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
      Agrega el manejo de autenticación. 
@@ -48,7 +48,7 @@
     </nav>
     <!-- Barra de navegación -->
 
-    <!-- Navbar -->
+    <!-- Menú -->
     <div class="menu" role="group" aria-label="Vertical button group">
       <button type="button" onClick="formInicio();" class="menuBtn" style="font-size:30px;">INICIO</button>
       <button type="button" class="menuNBtn" style="font-size:13px;">HABITACIONES</button>
@@ -59,8 +59,40 @@
     </div>
 
 
-    <div class="contenido">
-      
+    <section class="contenido">
+      <!-- Habitación Estándar Sencilla-->
+      <div class="card">
+        <div class="carrusell">
+          <div class="photo" style="background-image: url(https://i.pinimg.com/originals/2f/7c/b6/2f7cb6253a30b61c8f96fd3f24f450e0.gif)"></div>
+        </div>
+        <div class="description">
+          <h1>Estándar Sencilla</h1>
+          <p> Habitación con 1 cama King Size. Escritorio de trabajo. Superficie aproximada de 37mts². Con una ocupación Máxima de  2 Personas. Ubicada en los pisos 3, 4 y 5. </p>
+          <p class="iconos">
+            <img src="https://image.flaticon.com/icons/png/512/95/95922.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/>
+            <img src="https://cdn-icons-png.flaticon.com/512/435/435527.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/>
+            <img src="https://cdn-icons-png.flaticon.com/512/52/52075.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/>
+            <img src="https://image.flaticon.com/icons/png/512/130/130271.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/>
+          </p>
+        </div>
+      </div>
+
+      <!-- Habitación Estándar Plus-->
+      <div class="card">
+        <div class="carrusell">
+          <div class="photo" style="background-image: url(https://i.gifer.com/AT16.gif)"></div>
+        </div>
+        <div class="description">
+          <h1>Estándar Plus</h1>
+          <p> Habitación con 1 cama queen size y sofa cama matrimonial. Escritorio de trabajo. División tipo sala.  Cuenta con una superficie aproximada de 35mts²  y una ocupación Máxima para 4 Personas. Ubicada en planta baja y segundo piso.</p>
+          <p class="iconos">
+            <img src="https://image.flaticon.com/icons/png/512/95/95922.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/>
+            <img src="https://cdn-icons-png.flaticon.com/512/435/435527.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/>
+            <img src="https://cdn-icons-png.flaticon.com/512/52/52075.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/>
+            <img src="https://image.flaticon.com/icons/png/512/130/130271.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/>
+          </p>
+        </div>
+      </div>
 
       <footer>
         <!-- Contenedor de la retícula -->
@@ -90,7 +122,7 @@
         </div>
         <!-- Copyright -->
   </footer>
-    </div>
+</section>
       
     
 

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+
+.contenido {
+    overflow: hidden;
+    width: 88.8%;
+    position: absolute;
+    top: 12%;
+    left: 10.5%;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    line-height: 1.25;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    max-height: auto;
+    min-height: auto;
+    margin: 1rem auto;
+    box-shadow: 0 3px 7px -1px rgba(#000, .1);
+    background: #5ad67d /*#f5f3ef;*/;
+    overflow: hidden;
+    z-index: 0;
+    align-items: justify;
+}
+
+.carrusell {
+    position: relative;
+    z-index: 0.5;
+    width: auto;
+    height: auto;
+    flex-basis: 50%;
+}
+
+.photo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    padding: 1vw;
+    background: #f5f3ef;
+    position: relative;
+    z-index: 0.5;
+    flex-basis: 50%;
+}
+
+h1 {
+    font-family: Poppins, sans-serif;
+    line-height: 1;
+    font-size: 1.7rem;
+}
+
+.iconos {
+    display: inline-block;
+    position: relative;
+}
+
+/*
+@media (min-width: 640px) {
+    flex-direction::row,
+    max-width:: 100%; /* tamaño máximo del card
+      .carrusell {
+        
+      }
+      .description {
+        
+      }
+    }
+  }*/
