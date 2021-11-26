@@ -2,12 +2,13 @@
 
 body {
   font-family: 'Outfit', sans-serif;
-  font-size: 1.3vw;
+  font-size: 18px;
 }
 
 .contenido {
   float: right;
   width: 90%;
+  min-width: 90px;
   top: 12%;
 }
 
