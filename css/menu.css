@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Outfit:wght@300&display=swap');
 
 .menu {
-    float: left;
     width: 9%;
+    float: left;
     height: 100%;
     background-color: #4faae0;
     position: fixed;
-    top: 12%;
+    top: 11%;
     text-align: center;
     size-adjust: 100%;
     text-size-adjust: auto;
@@ -14,7 +14,7 @@
   
 .menuBtn {
     width: 100%;
-    height: 70px;
+    height: 5.2vw;
     background: none;
     border: none;
     border-bottom: 2px solid #F5F3EF;
@@ -36,7 +36,7 @@
   
 .menuNBtn {
     width: 100%;
-    height: 70px;
+    height: 5.2vw;
     background-color: #7ed97e;
     border: none;
     box-shadow: none;

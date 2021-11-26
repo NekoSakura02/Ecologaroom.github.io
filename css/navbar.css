@@ -2,11 +2,13 @@
 
 .navbar {
   width: 100%; /* Establecemos que el navbar abarque el 100% del documento */
+  height: 100%;
+  max-height: 11%;
 	overflow: hidden; /* Eliminamos errores de float */
   position: fixed; 
   top: 0;
   background-color: #F5F3EF;
-  font-size: 14px;
+  font-size: 1.3vw;
 }
 
 .logo {
@@ -31,12 +33,14 @@
 .navbar label {
   size-adjust: 100%;
   text-size-adjust: auto;
+  font-size: 1.3vw;
   margin-left:18px;
 }
 
 .navbar input {
   size-adjust: 100%;
   text-size-adjust: auto;
+  font-size: 1.3vw;
   margin-right:18px;
   width: 125px;
 }
@@ -44,6 +48,7 @@
 #Num_huesped {
   size-adjust: 100%;
   text-size-adjust: auto;
+  font-size: 1.3vw;
   width: 50px;
 }
 
@@ -54,7 +59,7 @@
   text-decoration: none;
   text-align: center;
 	display: inline-block;
-  font-weight: bold;
+  font-size: 1.3vw;
   color:#fff;
   background: #7ed957;
 	box-shadow:0px 3px 0px #429900;
