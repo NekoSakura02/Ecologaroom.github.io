@@ -6,6 +6,11 @@ h1 {
     text-align: center; /* Alineamos el título al centro de lo que abarca */
 }
 
+h2 {
+    font-family: 'Outfit', sans-serif; /* Asignamos la familia Lateef al primer título */
+    text-align: justify; /* Alineamos el título al centro de lo que abarca */
+}
+
 .contenido {
     position: absolute;
     top: 10%;
