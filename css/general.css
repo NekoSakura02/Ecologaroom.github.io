@@ -1,20 +1,20 @@
 @import url("'https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lateef&family=Outfit:wght@300&display=swap'");
 
 h1 {
-    font-family: 'Lateef';
+    font-family: 'Lateef'; /* Asignamos la familia Lateef al primer título */
     font-size: 35px;
-    text-align: center;
+    text-align: center; /* Alineamos el título al centro de lo que abarca */
 }
 
 .contenido {
-    overflow: hidden;
-    width: 88.8%;
     position: absolute;
-    top: 12%;
-    left: 10.5%;
+    top: 10%;
+    right: 0%;
+    width: 88%;
     font-family: 'Outfit', sans-serif;
     font-size: 18px;
     line-height: 1.25;
     align-items: justify;
+    margin: 0% 1% 0% 1%; /* Delimitamos que el margen del contenido sea del 1% de lo que abarca a la derecha y a la izquierda */
 }
 
