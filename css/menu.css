@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Outfit:wght@300&display=swap');
+@import url("'https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lateef&family=Outfit:wght@300&display=swap'");
 
 .menu {
     width: 9%;
@@ -12,6 +12,14 @@
     size-adjust: 100%;
     text-size-adjust: auto;
     z-index: 1;
+}
+
+.menu label {
+    font-family: 'EB Garamond', serif;
+}
+
+.menu input {
+    font-family: 'EB Garamond', serif;
 }
   
 .menuBtn {

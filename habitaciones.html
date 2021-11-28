@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/habitaciones.css">
     <!--  Carga el núcleo de Firebase JS SDK 
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
@@ -17,6 +18,7 @@
     <script
     src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js">
     </script>-->
+    <script src="js/carrusel.js"></script>
     <script src="js/navegacion.js"></script>
   </head>
   <body>
@@ -50,23 +52,31 @@
 
     <!-- Menú -->
     <div class="menu" role="group" aria-label="Vertical button group">
-      <button type="button" onClick="formInicio();" class="menuBtn" style="font-size:30px;">INICIO</button>
-      <button type="button" class="menuNBtn" style="font-size:13px;">HABITACIONES</button>
-      <button type="button" onClick="formInstalaciones();" class="menuBtn" style="font-size:12px;">INSTALACIONES</button>
-      <button type="button" onClick="formTurismo();" class="menuBtn" style="font-size:21px;">TURISMO</button>
-      <button type="button" onClick="formRestaurantes();" class="menuBtn" style="font-size:12px;">RESTAURANTES</button>
+      <button type="button" onClick="formInicio();" class="menuBtn" style="font-size:34px;">INICIO</button>
+      <button type="button" class="menuNBtn" style="font-size:16px;">HABITACIONES</button>
+      <button type="button" onClick="formInstalaciones();" class="menuBtn" style="font-size:15px;">INSTALACIONES</button>
+      <button type="button" onClick="formTurismo();" class="menuBtn" style="font-size:26px;">TURISMO</button>
+      <button type="button" onClick="formRestaurantes();" class="menuBtn" style="font-size:15px;">RESTAURANTES</button>
       <button type="button" onClick="formFAQ();" class="menuBtn" style="font-size:46px;">FAQ</button>
     </div>
 
-
     <section class="contenido">
+      <h1>HABITACIONES</h1>
       <!-- Habitación Estándar Sencilla-->
       <div class="card">
-        <div class="carrusell">
-          <div class="photo" style="background-image: url(https://i.pinimg.com/originals/2f/7c/b6/2f7cb6253a30b61c8f96fd3f24f450e0.gif)"></div>
-        </div>
+        <!-- Carrusel -->
+        <section class="carrusel">
+          <!-- Envoltura de las imágenes del carrusel -->
+          <div  class="envoltura">
+            <img class="img" src="https://d1el5jddkxvjyd.cloudfront.net/viceroyhotelsandresorts.com-2109743334/cms/cache/v2/60b139e5d765b.jpg/1920x1080/fit/80/d574d35beb17d7a75a0a643d2944c3db.jpg">
+            <img class="img" src="https://d1el5jddkxvjyd.cloudfront.net/viceroyhotelsandresorts.com-2109743334/cms/cache/v2/5c538de1e88ae.jpg/1920x1080/fit/80/cdf17bd47317c492add7b4f1d2870ee1.jpg">
+            <img class="img" src="https://d1el5jddkxvjyd.cloudfront.net/viceroyhotelsandresorts.com-2109743334/cms/cache/v2/5c538de118f42.jpg/1920x1080/fit/80/f50fe1704571499b74925f7ee55dd0e1.jpg">
+            <img class="img" src="https://d1el5jddkxvjyd.cloudfront.net/viceroyhotelsandresorts.com-2109743334/cms/cache/v2/5c538de16b696.jpg/1920x1080/fit/80/16599cca595c452736e4acc453c3310d.jpg">
+          </div>
+        </section>
+
         <div class="description">
-          <h1>Estándar Sencilla</h1>
+          <h2>Estándar Sencilla</h2>
           <p> Habitación con 1 cama King Size. Escritorio de trabajo. Superficie aproximada de 37mts². Con una ocupación Máxima de  2 Personas. Ubicada en los pisos 3, 4 y 5. </p>
           <p class="iconos">
             <img src="https://image.flaticon.com/icons/png/512/95/95922.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/>
@@ -79,19 +89,28 @@
 
       <!-- Habitación Estándar Plus-->
       <div class="card">
-        <div class="carrusell">
-          <div class="photo" style="background-image: url(https://i.gifer.com/AT16.gif)"></div>
-        </div>
+        <!-- Carrusel -->
+        <section class="carrusel">
+          <!-- Envoltura de las imágenes del carrusel -->
+          <div  class="envoltura">
+            <img class="img" src="https://d1el5jddkxvjyd.cloudfront.net/viceroyhotelsandresorts.com-2109743334/cms/cache/v2/5c538ddbee0a9.jpg/1920x1080/fit/80/5c27abdcd658b1179010a99d319d5b8f.jpg">
+            <img class="img" src="https://d1el5jddkxvjyd.cloudfront.net/viceroyhotelsandresorts.com-2109743334/cms/cache/v2/5c538dda4b8e6.jpg/1920x1080/fit/80/0eeb6f46061cc735a0bb96511d3f330d.jpg">
+            <img class="img" src="https://d1el5jddkxvjyd.cloudfront.net/viceroyhotelsandresorts.com-2109743334/cms/cache/v2/5c538dd99d771.jpg/1920x1080/fit/80/330ebf6484384a4f38653011ab11fa28.jpg">
+            <img class="img" src="https://d1el5jddkxvjyd.cloudfront.net/viceroyhotelsandresorts.com-2109743334/cms/cache/v2/5c538dd9e01f5.jpg/1920x1080/fit/80/16764decaa46005f5f0cbe6f58026f9c.jpg">
+          </div>
+        </section>
+
+        <!-- Información -->
         <div class="description">
-          <h1>Estándar Plus</h1>
-          <p> Habitación con 1 cama queen size y sofa cama matrimonial. Escritorio de trabajo. División tipo sala.  Cuenta con una superficie aproximada de 35mts²  y una ocupación Máxima para 4 Personas. Ubicada en planta baja y segundo piso.</p>
-          <p class="iconos">
-            <img src="https://image.flaticon.com/icons/png/512/95/95922.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/>
-            <img src="https://cdn-icons-png.flaticon.com/512/435/435527.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/>
-            <img src="https://cdn-icons-png.flaticon.com/512/52/52075.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/>
-            <img src="https://image.flaticon.com/icons/png/512/130/130271.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/>
-          </p>
-        </div>
+                <h2>Estándar Plus</h2>
+                <p> Habitación con 1 cama queen size y sofa cama matrimonial. Escritorio de trabajo. División tipo sala.  Cuenta con una superficie aproximada de 35mts²  y una ocupación Máxima para 4 Personas. Ubicada en planta baja y segundo piso.</p>
+                <p class="iconos">
+                  <img src="https://image.flaticon.com/icons/png/512/95/95922.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/>
+                  <img src="https://cdn-icons-png.flaticon.com/512/435/435527.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/>
+                  <img src="https://cdn-icons-png.flaticon.com/512/52/52075.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/>
+                  <img src="https://image.flaticon.com/icons/png/512/130/130271.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/>
+                </p>
+           </div>
       </div>
 
       <footer>
