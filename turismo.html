@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/turismo.css">
     <!--  Carga el núcleo de Firebase JS SDK 
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
      Agrega el manejo de autenticación. 
@@ -45,9 +46,9 @@
       <!-- Barra de navegación -->
 
       <!-- Menú -->
-      <div class="menu" role="group">
+      <section class="menu" role="group">
         <!-- Botón de Inicio -->
-        <button type="button" onClick="formInicio();" class="menuBtn" style="font-size:34px;">INICIO</button>
+        <button type="button" onClick="formInicio()" class="menuBtn" style="font-size:34px;">INICIO</button>
         <!-- Botón de Habitaciones -->
         <button type="button" onClick="formHabitaciones();" class="menuBtn" style="font-size:16px;">HABITACIONES</button>
         <!-- Botón de Intalaciones -->
@@ -58,44 +59,73 @@
         <button type="button" onClick="formRestaurantes();" class="menuBtn" style="font-size:15px;">RESTAURANTES</button>
         <!-- Botón de FAQ -->
         <button type="button" onClick="formFAQ();" class="menuBtn" style="font-size:46px;">FAQ</button>
-      </div>
+      </section>
       <!-- Menú -->
 
-    <div class="contenido">
-      <h1>TURISMO</h1>
-      <footer>
-        <!-- Contenedor de la retícula -->
-        <div class="retícula">
-          <!-- Sección: Contacto -->
-          <section class="contacto">
-            <h3>CONTACTO</h3>
-            <!-- Número -->
-            <a class="icon" title="Llámanos" href="https://goo.gl/maps/DMi8wx4pS4wtUn2z5"><img src="img/llamada-telefonica.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/></a>
-      
-            <!-- Email -->
-            <a class="icon" title="Mandanos un correo" href="https://goo.gl/maps/DMi8wx4pS4wtUn2z5"><img src="img/email.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/></a>
-      
-            <!-- Ubicación -->
-            <a class="icon" title="Buscanos en Google Maps" href="https://goo.gl/maps/DMi8wx4pS4wtUn2z5"><img src="img/placeholder.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/></a>
-          </section>
-          <!-- Sección: Contacto -->
+      <!-- Contenido -->
+      <section class="contenido">
+        <!-- Título del apartado -->
+        <h1>TURISMO</h1>
+        <!-- Título del apartado -->
+
+        <div class="division"></div>
+
+        <div class="card">
+          <div class="cabecera">
+            <h2>Paseo en Globo Aerostático</h2>
+            <p class="precio">$ 250.00</p>
+          </div>
+          <div class="cuerpo">
+            <img class="cinemagraph" src="https://i.pinimg.com/originals/75/34/72/753472facc28547010848be981ea9c76.gif"/>
+            <p class="descripcion">
+              La actividad comienza temprano en la mañana conduciendo hacia Teotihuacan. Luego de las presentaciones y algunas indicaciones dadas, disfrutará de la mágica experiencia de un paseo en globo aerostático. Volarás alrededor de una hora y podrás admirar la hermosa zona arqueológica a través del globo. Al finalizar el vuelo, regresará al puerto de globos para abordar el vehículo que lo llevará de regreso a su hotel.
+            </p>
+          </div>
         </div>
-        <!-- Contenedor de la retícula -->
-      
-        <!-- Copyright -->
-        <div class="copyright" style="background-color: rgba(0, 0, 0, 0.2);">
-          Copyright &copy; 2021
-         <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-          <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/uniconlabs" title="Uniconlabs">Uniconlabs</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
-        -->
+
+        <div class="division"></div>
+
+        <div class="card">
+          <div class="cabecera">
+            <h2>Paseo en Globo Aerostático</h2>
+            <p class="precio">$ 250.00</p>
+          </div>
+          <div class="cuerpo">
+            <img class="cinemagraph" src="https://i.pinimg.com/originals/75/34/72/753472facc28547010848be981ea9c76.gif"/>
+            <p class="descripcion">
+              La actividad comienza temprano en la mañana conduciendo hacia Teotihuacan. Luego de las presentaciones y algunas indicaciones dadas, disfrutará de la mágica experiencia de un paseo en globo aerostático. Volarás alrededor de una hora y podrás admirar la hermosa zona arqueológica a través del globo. Al finalizar el vuelo, regresará al puerto de globos para abordar el vehículo que lo llevará de regreso a su hotel.
+            </p>
+          </div>
         </div>
-        <!-- Copyright -->
-  </footer>
-    </div>
+
+        <!-- Pie de página -->
+        <footer>
+          <!-- Contenedor de la retícula -->
+          <div class="retícula">
+            <!-- Sección: Contacto -->
+            <section class="contacto">
+              <h3>CONTACTO</h3>
+              <!-- Número -->
+              <a class="icon" title="Llámanos" href="https://goo.gl/maps/DMi8wx4pS4wtUn2z5"><img src="img/llamada-telefonica.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/></a>  
+              <!-- Email -->
+              <a class="icon" title="Mandanos un correo" href="https://goo.gl/maps/DMi8wx4pS4wtUn2z5"><img src="img/email.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/></a>
+              <!-- Ubicación -->
+              <a class="icon" title="Buscanos en Google Maps" href="https://goo.gl/maps/DMi8wx4pS4wtUn2z5"><img src="img/placeholder.png" height="30" width="30" style="background-color: rgba(251, 251, 251, 0.6)"/></a>
+            </section>
+            <!-- Sección: Contacto -->
+          </div>
+          <!-- Contenedor de la retícula -->
       
+          <!-- Copyright -->
+          <div class="copyright" style="background-color: rgba(0, 0, 0, 0.2);">
+            Copyright &copy; 2021
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Pie de página -->
+      </section>
+      <!-- Contenido -->
     
-
-
 
     <!-- <h1>hOLA</h1>
     <form action="javascript:agrega();">

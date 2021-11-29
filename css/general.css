@@ -7,7 +7,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Outfit', sans-serif; /* Asignamos la familia Lateef al primer título */
+    font-family: 'Outfit', sans-serif; /* Asignamos la familia Outfit al primer título */
     text-align: justify; /* Alineamos el título al centro de lo que abarca */
 }
 
@@ -16,10 +16,9 @@ h2 {
     top: 10%;
     right: 0%;
     width: 88%;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', sans-serif; /* Asignamos la familia Outfit a todo el contenido */
     font-size: 18px;
     line-height: 1.25;
     align-items: justify;
     margin: 0% 1% 0% 1%; /* Delimitamos que el margen del contenido sea del 1% de lo que abarca a la derecha y a la izquierda */
 }
-
